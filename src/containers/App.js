@@ -54,7 +54,7 @@ class App extends Component {
             </span>
           }
           {!isFetching &&
-            <button onClick={this.handleRefreshClic}>
+            <button onClick={this.handleRefreshClick}>
               Refresh
             </button>
           }
